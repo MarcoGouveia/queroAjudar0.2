@@ -1,0 +1,493 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    outline: 0;
+
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+html{
+    width: 100%;
+}
+
+/*===========
+    Header 
+==============*/
+
+header{
+    width: 100%;
+    background-color: #d4eaf3;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+    height: 100px;
+}
+
+.header .conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    max-width: 980px;
+
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+
+.header .conteiner .logo{
+    width: 10%;
+    height: 100%;
+}
+
+.header .conteiner .logo img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.header .conteiner .nav-bar ul{
+    
+    display: flex;
+}
+
+.header .conteiner .nav-bar ul li{
+    list-style: none;
+}
+
+.header .conteiner .nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 14px;
+    transition: all 250ms linear 0s;
+
+    border-radius: 15px;
+
+}
+
+.header .conteiner .nav-bar ul li a:hover{
+    background-color: #a7dcf0;;
+}
+
+/*===================
+    Foto inicial
+=====================*/
+
+.picture img{
+    width: 99vw;
+    height: 100vh;
+    /*Aletar o Vw para tirar barra-de-rolagem de baixo*/
+}
+
+
+
+/*====================
+    Sobre
+======================*/
+
+.sobre{
+    margin-top: -4px;
+}
+.sobre .header-sobre{
+    width: 100%;
+    background-color: #d4eaf3;
+}
+
+.sobre .header-sobre .content-header{
+    max-width: 980px;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre .header-sobre .content-header .title-sobre{
+    text-transform: uppercase;
+    margin: auto;
+    
+}
+
+
+.sobre .conteiner-content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    margin-top: 3%;
+
+}
+
+.sobre .conteiner-content .sobre-text{
+    margin-left: 4%;
+}
+
+.sobre .conteiner-content .img-content{
+    width: 250%;
+    
+}
+
+
+.sobre .conteiner-content .img-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.sobre .sobre-redes ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    max-width: 980px;
+    margin: auto;
+    margin-top: 3%;
+
+}
+.sobre .sobre-redes ul li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    
+}
+
+.sobre .sobre-redes ul li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+    border-radius: 50px;
+
+
+}
+
+.sobre .sobre-redes ul li a i{
+    height: 100%;
+    width: 20%;
+}
+
+
+/*==============================
+    Como Funciona
+================================*/
+
+
+.como-funciona .header-comofunciona .content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    height: 64px;
+
+    margin: auto;
+    margin-top: 5%;
+}
+
+.como-funciona .header-comofunciona{
+    
+    background-color: #d4eaf3;
+    width: 100%;
+    
+}
+
+.como-funciona .header-comofunciona .content-header h1{
+    text-transform: uppercase;
+    
+}
+
+.como-funciona .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    height: 64px;
+
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+.como-funciona .etapas-content{
+    margin-top: 1%;
+    width: 100%;
+    display: block;
+
+}
+
+.como-funciona .etapas-content .one, .two , .three{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+
+    height: 33%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.como-funciona .etapas-content .paragrafo-etapa {
+    margin-left: 10px;
+}
+
+
+/*==============================
+    Equipe
+================================*/
+
+
+.equipe .header{
+    width: 100%;
+    background-color:#d4eaf3 ;
+}
+
+.equipe .header .title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 980px;
+    height: 64px;
+
+    margin: auto;
+    margin-top: 3%;
+}
+
+.equipe .header .title h1{
+    text-transform: uppercase;
+}
+
+
+.equipe .content-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    height: 64px;
+
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+.equipe .equipe-cards{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.equipe .equipe-cards .integrantes{
+    flex: 1 1 200px;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+
+
+
+
+    background-color: #d4eaf3;
+}
+
+.equipe .equipe-cards .integrantes img{
+    border-radius: 0px;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 90px;
+    height: 100px;
+    width: 150px;
+
+    
+}
+.equipe .equipe-cards .integrantes p{
+    margin: 17px;
+    line-height: 1px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.equipe .equipe-cards .integrantes .integrantes-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe .equipe-cards .integrantes .integrantes-redes ul{
+    list-style:  none;
+}
+.equipe .equipe-cards .integrantes .integrantes-redes ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.equipe .equipe-cards .integrantes .integrantes-redes ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/*=============================
+    Contato
+===============================*/
+
+.contato{
+    width: 100%;
+    background-color: #d4eaf3;
+    display: block;
+    margin-top: 100px;
+
+}
+.contato .header{
+    width: 100%;
+    max-width: 980px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
+
+.contato .header img{
+    margin: 10px;
+    width: 200px;
+    height: 136px;
+
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.contato .header h1{
+    text-transform: uppercase;
+}
+
+.contato .info-content{
+    width: 100%;
+    max-width: 980px;
+
+    display: flex;
+
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.contato .info-content .info{
+
+    display: block;
+    margin: auto;
+
+
+    text-transform: capitalize;
+
+    line-height: 26px;
+
+
+
+}
+
+.contato .info-content .redes{
+    display: block;
+    margin: auto;
+}
+
+.contato .info-content .redes ul{
+    list-style: none;
+    margin: auto;
+
+}
+
+.contato .info-content .redes ul li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    display: block;
+
+
+
+   
+
+}
+.contato .info-content .redes ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+
+    height: 100%;
+    margin-top: 2px;
+
+    padding: 0px 20px;
+}
+
+.contato .info-content .redes ul li a i{
+    font-size: 30px;
+    margin: 0 auto;
+
+    height: 100%;
+}
+
+
+/*========================
+    FOOTER
+=========================*/
+
+.footer{
+
+    background-color:#7bb4cc;
+    color: black;
+    width: 100%;
+    height: 80px;    
+    
+}
+
+.footer .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+
+}
+
+.footer .content .copy, .localidade{
+    margin-top: 35px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.footer .content .version{
+    margin-top: 60px;
+}
+
