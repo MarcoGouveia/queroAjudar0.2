@@ -1,1 +1,1 @@
-https://marcogouveia.github.io/WebQueroAjudar/
+marcogouveia.github.io/WebQueroAjudar/
